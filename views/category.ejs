@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overview</title>
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>LEGO Sets Overview</h1>
+    <div class="container">
+
+<% for(let i = 0; i < rare.length; i++) { %>
+        <div class="card">
+            <img src="lego1.jpg" alt="LEGO Set 1">
+            <h3>LEGO Star Wars</h3>
+            <p><strong>name:</strong> <%=rare[i].name%></p>
+            <p><strong>Time Made:</strong> <%=rare[i].timeMade%></p>
+            <p><strong>Original Price:</strong> <%=rare[i].originalPrice%></p>
+            <p><strong>Used Condition:</strong> <%=rare[i].usedCondition%></p>
+            <p><strong>New Condition:</strong> <%=rare[i].newCondition%></p>
+            <p><strong>Description:</strong> <%=rare[i].description%></p>
+            <p><strong>How Many Left:</strong> <%=rare[i].howManyLeft%></p>
+        </div>
+        <% } %>
+
+    </div>
+</body>
