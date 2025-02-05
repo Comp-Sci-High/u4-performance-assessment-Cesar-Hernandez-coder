@@ -13,7 +13,7 @@
 
 <% for(let i = 0; i < rare.length; i++) { %>
         <div class="card">
-            <img src="lego1.jpg" alt="LEGO Set 1">
+            <img src="<%= rare[i].imageURL%>">
             <h3>LEGO Star Wars</h3>
             <p><strong>name:</strong> <%=rare[i].name%></p>
             <p><strong>Time Made:</strong> <%=rare[i].timeMade%></p>
@@ -22,6 +22,7 @@
             <p><strong>New Condition:</strong> <%=rare[i].newCondition%></p>
             <p><strong>Description:</strong> <%=rare[i].description%></p>
             <p><strong>How Many Left:</strong> <%=rare[i].howManyLeft%></p>
+            <button class="INFO">More Info</button>
         </div>
         <% } %>
 

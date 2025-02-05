@@ -7,6 +7,7 @@ const legoPosts = {
   rare: [
     {
       name: "Chrome Gold C-3PO",
+      imageURL: "https://www.brickeconomy.com/resources/images/sets/lego-4521221-1_large.jpg",
       timeMade: "2007",
       originalPrice: "Free Promotional",
       usedCondition: 834,
@@ -16,6 +17,7 @@ const legoPosts = {
     },
     {
       name: "Chrome Vader",
+      imageURL: "https://www.brickeconomy.com/resources/images/sets/lego-4547551-1_large.jpg",
       timeMade: "2009",
       originalPrice: "Free Promotional",
       usedCondition: 351,
@@ -25,6 +27,7 @@ const legoPosts = {
     },
     {
       name: "Chrome Silver C 3PO",
+      imageURL: "https://www.brickeconomy.com/images/minifigs/sw0385/lego-tc-14-protocol-droid-minifigure-xlarge.jpg",
       timeMade: "2012",
       originalPrice: "Free Promotional",
       usedCondition: 101,
@@ -34,6 +37,7 @@ const legoPosts = {
     },
     {
       name: "Cloud City Boba",
+      imageURL: "https://www.brickeconomy.com/images/minifigs/sw0107/lego-boba-fett-minifigure-xlarge.jpg",
       timeMade: "2003",
       RetailPrice: 99.99,
       usedCondition: 1562,
@@ -43,12 +47,23 @@ const legoPosts = {
     },
     {
       name: "Jango Fett",
+      imageURL: "https://www.brickeconomy.com/images/minifigs/sw0053/lego-jango-fett-minifigure-xlarge.jpg",
       timeMade: "2002",
       RetailPrice: 50,
       usedCondition: 308,
       newCondition: 487,
       description: "The LEGO Star Wars Jango Fett minifig was first introduced in 2002 in the set 7153 Jango Fett's Slave I and is currently estimated to be valued around $407 and an annual growth of about 14.7%.",
       howManyLeft: "Unknown"
+    },
+    {
+      name: "Mr Gold",
+      imageURL: "https://www.brickeconomy.com/resources/images/sets/lego-71001-19_large.jpg",
+      timeMade: "2013",
+      RetailPrice: 3,
+      usedCondition: "unknown",
+      newCondition: 6252,
+      description: " LEGO Mr. Gold is a Series 10 minifigure that contains 8 pieces and was released as part of the collectable series in 2013. The LEGO set number for Mr. Gold is 71001-19. Only 5,000 Mr. Gold minifigs were produced for the Series 10 Minifigures collection.",
+      howManyLeft: "5000"
     }
   ]
 }
