@@ -1,0 +1,25 @@
+<script>
+    function redirectToDetails(setName) {
+        window.location.href = '/details?set=' + encodeURIComponent(setName);
+    }
+</script>
+</head>
+<body>
+<h1>LEGO Sets Overview</h1>
+<div class="container">
+    <div class="card" onclick="redirectToDetails('LEGO Star Wars')">
+        <img src="<%=imageURL%>">
+        <h3>LEGO Star Wars</h3>
+        <p><strong>name:</strong> <%= name %></p>
+        <p><strong>Time Made:</strong> <%=timeMade%></p>
+        <p><strong>Original Price:</strong> <%=originalPrice%></p>
+        <p><strong>Used Condition:</strong> <%=usedCondition%></p>
+        <p><strong>New Condition:</strong> <%=newCondition%></p>
+        <p><strong>Description:</strong> <%=description%></p>
+        <p><strong>How Many Left:</strong> <%=howManyLeft%></p>
+    </div>
+   
+</div>
+</body>
+</html>
+</style>

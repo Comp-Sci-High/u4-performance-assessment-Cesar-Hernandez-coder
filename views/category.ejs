@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+
+
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+
+
+
     <h1>LEGO Sets Overview</h1>
     <div class="container">
 
@@ -22,7 +30,7 @@
             <p><strong>New Condition:</strong> <%=rare[i].newCondition%></p>
             <p><strong>Description:</strong> <%=rare[i].description%></p>
             <p><strong>How Many Left:</strong> <%=rare[i].howManyLeft%></p>
-            <button class="INFO">More Info</button>
+            <a class="INFO" href="/starwars/<%=i%>">More Info</a>
         </div>
         <% } %>
 

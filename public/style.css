@@ -5,6 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    
 }
 .container {
     max-width: 800px;
@@ -86,4 +87,56 @@ body2 {
 
 .INFO:hover {
     background-color: #45a049;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff00;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+body3 {
+    background-color: #FFEB3B;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3 {
+    color: #F57F17;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    margin: 5px 0;
 }
